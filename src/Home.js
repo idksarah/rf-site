@@ -41,7 +41,7 @@ function Home () {
                 <div className="aboutYap">
                     <p>FTC Team 13356 RoboForce is an experienced youth robotics team in Fremont, California, competing in the FIRST Tech Challenge.  Our mission is to Inform, Inspire, and Innovate.  We strive to promote STEM education to K-12 students across the nation and around the world.</p>
                     <p>
-                    Every year, we build and program a custom robot to tackle unique challenges in the FIRST TECH CHALLENGE game.  Our team applies scientific thinking, as well as knowledge in physics, math, and engineering skills to take leaps in original projects. Our drive to continually improve and creatively solve problems give us the opportunity to always <span className="motto">Take Innovation to the Next Level</span>. 
+                    Every year, we build and program a custom robot to tackle unique challenges in the FIRST TECH CHALLENGE game.  Our team applies scientific thinking, as well as knowledge in physics, math, and engineering skills to take leaps in original projects. Our drive to continually improve and creatively solve problems give us the opportunity to always <span className="blue">Take Innovation to the Next Level</span>. 
                     </p>
                     <p>Check our our team members' bios here!</p>
                 </div>
