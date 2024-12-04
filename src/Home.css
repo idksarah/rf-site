@@ -8,7 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90em
+    width: 80em;
+    margin: 2em;
 }
 
 p {
@@ -30,6 +31,7 @@ p {
 
 .header1 {
     font-size: 8rem;
+    font-weight: 700;
 }
 
 .header2 {
