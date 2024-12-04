@@ -1,15 +1,19 @@
-* {
+#root {
     width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
 body {
     background-color: rgb(27, 27, 27);
+    margin-top: 10em;
     overflow-x: hidden;
-    display: flex;
+}
+
+.content {
+    display: flex; 
     flex-direction: column;
     align-items: center;
-    width: 80em;
-    margin: 2em;
 }
 
 p {
@@ -17,33 +21,88 @@ p {
     font-weight: 500;
     font-size: 1.5rem;
 }
-
+.news{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .card {
     background-color: RGBA(255,255,255,0.2);
     padding: 5em;
     border-radius: 4px;
     margin-top: 2em;
+    width: 50em;
+    display: flex;
+}
+.verticalCards{
+    display: flex;
+    justify-content: center;
+}
+.cardImg{
+    background-color: RGBA(255,255,255,0.2);
+    padding: 4em 2em 0em 2em;
+    border-radius: 4px;
+    margin-top: 2em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .section {
-    margin: 5em;
+    width: 80em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.yap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .header1 {
     font-size: 8rem;
     font-weight: 700;
+    margin: 0em;
 }
 
 .header2 {
     font-size: 5rem;
+    font-weight: 700;
 }
 
 .header3 {
     font-size: 3rem;
+    font-weight: 700;
+}
+
+.header4{
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 .blue {
     color:rgb(0, 170, 255);
 }
 .lightBlue{
     color:rgb(159, 223, 255);
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.award{
+    width: 30em;
 }
