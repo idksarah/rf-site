@@ -6,14 +6,34 @@
 
 body {
     background-color: rgb(27, 27, 27);
-    margin-top: 10em;
     overflow-x: hidden;
 }
+.topBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5em;
+    margin-right: 5em;
+}
 
+.topBarOther{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.topBarElement{
+    cursor: pointer;
+}
 .content {
     display: flex; 
     flex-direction: column;
     align-items: center;
+    margin-top: 10em;
+}
+
+.topBarElement{
+    margin-left: 2em;
 }
 
 p {
@@ -21,56 +41,7 @@ p {
     font-weight: 500;
     font-size: 1.5rem;
 }
-.news{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.cards{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.card {
-    background-color: RGBA(255,255,255,0.2);
-    padding: 5em;
-    border-radius: 4px;
-    margin-top: 2em;
-    width: 50em;
-    display: flex;
-}
-.verticalCards{
-    display: flex;
-    justify-content: center;
-}
-.cardImg{
-    background-color: RGBA(255,255,255,0.2);
-    padding: 4em 2em 0em 2em;
-    border-radius: 4px;
-    margin-top: 2em;
-    margin: 1em;
-    display: flex;
-    flex-direction: column;
-}
 
-.section {
-    width: 80em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.yap{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .header1 {
     font-size: 8rem;
     font-weight: 700;
@@ -96,6 +67,85 @@ p {
 }
 .lightBlue{
     color:rgb(159, 223, 255);
+}
+
+.section {
+    max-width: 80em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
+.topYap{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutContent{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.teamPhoto{
+    width: 40em;
+    margin-left: 2em;
+}
+.news{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    background-color: RGBA(255,255,255,0.2);
+    padding: 2em;
+    border-radius: 4px;
+    margin-top: 2em;
+    width: 50em;
+    display: flex;
+}
+.verticalCards{
+    display: flex;
+    justify-content: center;
+}
+.cardVerticalImg{
+    height: 15em;
+}
+.cardImg{
+    background-color: RGBA(255,255,255,0.2);
+    padding: 4em 2em 0em 2em;
+    border-radius: 4px;
+    margin-top: 2em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+}
+.cardVideo{
+ 
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.yap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .top{
     display: flex;

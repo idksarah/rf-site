@@ -1,0 +1,78 @@
+#root {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+    overflow-x: hidden;
+}
+.topBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.topBarOther{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.topBarElement{
+    cursor: pointer;
+}
+.content {
+    display: flex; 
+    flex-direction: column;
+    margin-top: 5em;
+}
+
+.topBarElement{
+    margin-left: 2em;
+}
+
+p {
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.header1 {
+    font-size: 8rem;
+    font-weight: 700;
+    margin: 0em;
+}
+
+.header2 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.header3 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.header4{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.blue {
+    color:rgb(0, 170, 255);
+}
+.lightBlue{
+    color:rgb(159, 223, 255);
+}
+
+.section {
+    max-width: 80em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 2em;
+}
