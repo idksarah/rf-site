@@ -68,6 +68,13 @@ p {
 .lightBlue{
     color:rgb(159, 223, 255);
 }
+.topBarElement:hover {
+    color: lightblue;
+  }
+  
+.cursor{
+    cursor: pointer;
+}
 
 .section {
     max-width: 80em;

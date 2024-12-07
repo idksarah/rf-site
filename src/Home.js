@@ -33,16 +33,28 @@ function Home () {
     const goSponsors=()=>{
         navigate('/sponsors');
     }
+    const goAbout=()=>{
+        navigate('/about');
+    }
+    const goOutreach=()=>{
+        navigate('/outreach');
+    }
+    const goRobots=()=>{
+        navigate('/robots');
+    }
+    const goHome=()=>{
+        navigate('/home');
+    }
     return(
         <>
         <div className="topBar">
             <div className="goHome">
-                <p className='heading1 blue topBarElement'>RoboForce</p>
+                <p className='heading1 blue topBarElement' onClick={goHome}>RoboForce</p>
             </div>
             <div className="topBarOther">
-                <p className="topBarElement about">About</p>
-                <p className="topBarElement robots">Robots</p>
-                <p className="outreach topBarElement">Outreach</p>
+                <p className="topBarElement about" onClick={goAbout}>About</p>
+                <p className="topBarElement robots" onClick={goRobots}>Robots</p>
+                <p className="outreach topBarElement" onClick={goOutreach}>Outreach</p>
                 <p className="topBarElement sponsors" onClick={goSponsors}>Sponsorship/Sponsors</p>
             </div>
         </div>
@@ -56,7 +68,7 @@ function Home () {
                     </div>
                 </div>
                 <div className="about section">
-                    <p className="header2 lightBlue">Meet the Team!</p>
+                    <p className="header2 lightBlue">Who We Are</p>
                     <div className="aboutContent">
                         <div className="left">
                             <div className="aboutYap">
@@ -64,7 +76,7 @@ function Home () {
                                 <p>
                                 Every year, we build and program a custom robot to tackle unique challenges in the FIRST TECH CHALLENGE game.  Our team applies scientific thinking, as well as knowledge in physics, math, and engineering skills to take leaps in original projects. Our drive to continually improve and creatively solve problems give us the opportunity to always <span className="blue">Take Innovation to the Next Level</span>. 
                                 </p>
-                                <p>Check our our team members' bios here!</p>
+                                <p>Check our our team members' bios <span className="lightBlue cursor" onClick={goAbout}>here!</span></p>
                             </div>
                         </div>
                         <div className="right">

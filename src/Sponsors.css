@@ -76,3 +76,16 @@ p {
     margin-left: 2em;
     margin-right: 2em;
 }
+.sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sponsor {
+    max-height: 10em; /* Limit the height */
+    max-width: 100%; /* Ensure it scales proportionally within its container */
+    object-fit: contain; /* Prevent squishing or stretching */
+    margin: 0 auto; /* Center the image within its flex item */
+}
