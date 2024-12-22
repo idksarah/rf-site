@@ -61,6 +61,22 @@ function Sponsors (){
                 <img className="apple sponsor"src={svs}></img>
                 <img className="apple sponsor"src={scs}></img>
             </div>
+
+            <p className='header3 lightBlue'>Contact us!</p>
+            <div className="contact">
+                <div className="leftContact">
+                    <p>For any inquiries, questions or commendations, please tell us!</p>
+                    <p>For any outreach/partnership inquiries, please contact us at <span className="lightBlue cursor">outreach.ftc13356@gmail.com.</span></p>
+                </div>
+                <div className ='rightContact'>
+                    <p>You can also find us at the following:</p>
+                    <p>Instagram: <span>@roboforce_ftc</span></p>
+                    <p>Facebook Page: <span>@RoboForce.FTC</span></p>
+                    <p>Youtube: <span>FTC RoboForce </span></p>
+                    <p>Email: <span>ftc13356@gmail.com</span></p>
+
+                </div>
+            </div>
         </div>
         </>
     );

@@ -88,7 +88,6 @@ function Home () {
                 <p className="header2 lightBlue">News & Events</p>
                     <div className="cards section">
                         <div className="horizontalCards">
-                            <CardHorizontalVideo className="card cardVideo" title="Serimatae Podcast" content="Check out our podcast episode with FTC Seramitae!" link="https://www.youtube.com/watch?v=qo3Buj_yXDI"></CardHorizontalVideo>
                         </div>
                         <div className="verticalCards">
                             <CardVertical title="California Advocacy Leadership Conference" content="Roboforce will be attending the annual SASA (Student Association for Stem Advocacy) California Advocacy Leadership Conference (CALC) to improve their advocacy techniques and knowledge of legislative processes to ultimately work with California legislators to expand STEM education, working with other robotics teams and state leaders!" img={calc}></CardVertical>
