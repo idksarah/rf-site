@@ -24,14 +24,23 @@ function Sponsors (){
     const goAbout=()=>{
         navigate('/about');
     }
-    const goOutreach=()=>{
-        navigate('/outreach');
+    const goBlog=()=>{
+        navigate('/blog');
     }
     const goRobots=()=>{
         navigate('/robots');
     }
     const goHome=()=>{
         navigate('/home');
+    }
+    const goInsta=()=>{
+        window.location.href = 'https://www.instagram.com/roboforce_ftc/';
+    }
+    const goFacebook=()=>{
+        window.location.href = 'https://www.facebook.com/RoboForce.FTC/';
+    }
+    const goYT=()=>{
+        window.location.href = 'https://www.youtube.com/@ftcroboforce13356';
     }
     return(
         <>
@@ -42,7 +51,7 @@ function Sponsors (){
             <div className="topBarOther">
                 <p className="topBarElement about" onClick={goAbout}>About</p>
                 <p className="topBarElement robots" onClick={goRobots}>Robots</p>
-                <p className="outreach topBarElement" onClick={goOutreach}>Outreach</p>
+                <p className="blog topBarElement" onClick={goBlog}>Blog</p>
                 <p className="topBarElement sponsors">Sponsorship/Sponsors</p>
             </div>
         </div>
@@ -62,18 +71,18 @@ function Sponsors (){
                 <img className="apple sponsor"src={scs}></img>
             </div>
 
-            <p className='header3 lightBlue'>Contact us!</p>
+            <p className='header2 lightBlue'>Contact us!</p>
             <div className="contact">
                 <div className="leftContact">
                     <p>For any inquiries, questions or commendations, please tell us!</p>
-                    <p>For any outreach/partnership inquiries, please contact us at <span className="lightBlue cursor">outreach.ftc13356@gmail.com.</span></p>
+                    <p>For any outreach/partnership inquiries, please contact us at <span className="lightBlue">outreach.ftc13356@gmail.com.</span></p>
                 </div>
                 <div className ='rightContact'>
                     <p>You can also find us at the following:</p>
-                    <p>Instagram: <span>@roboforce_ftc</span></p>
-                    <p>Facebook Page: <span>@RoboForce.FTC</span></p>
-                    <p>Youtube: <span>FTC RoboForce </span></p>
-                    <p>Email: <span>ftc13356@gmail.com</span></p>
+                    <p>Instagram: <span className="lightBlue cursor" onClick={goInsta}>@roboforce_ftc</span></p>
+                    <p>Facebook Page: <span className="lightBlue cursor" onClick={goFacebook}>@RoboForce.FTC</span></p>
+                    <p>Youtube: <span className="lightBlue cursor" onClick={goYT}>FTC RoboForce </span></p>
+                    <p>Email: <span className="lightBlue" >ftc13356@gmail.com</span></p>
 
                 </div>
             </div>

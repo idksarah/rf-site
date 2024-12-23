@@ -32,7 +32,7 @@ body {
     display: flex; 
     flex-direction: column;
     align-items: center;
-    margin-top: 10em;
+    margin-top: 5em;
 }
 
 .topBarElement{
@@ -49,11 +49,13 @@ p {
     font-size: 8rem;
     font-weight: 700;
     margin: 0em;
+    text-align: center;
 }
 
 .header2 {
     font-size: 5rem;
     font-weight: 700;
+    margin-top: 0em;
 }
 
 .header3 {
@@ -83,9 +85,11 @@ p {
     max-width: 80em;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 5em;
 }
 
 
@@ -105,42 +109,6 @@ p {
     width: 40em;
     margin-left: 2em;
 }
-.news{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.cards{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.card {
-    background-color: RGBA(255,255,255,0.2);
-    padding: 2em;
-    border-radius: 4px;
-    margin-top: 2em;
-    width: 50em;
-    display: flex;
-}
-.verticalCards{
-    display: flex;
-    justify-content: center;
-}
-.cardVerticalImg{
-    height: 15em;
-}
-.cardImg{
-    background-color: RGBA(255,255,255,0.2);
-    padding: 4em 2em 0em 2em;
-    border-radius: 4px;
-    margin-top: 2em;
-    margin: 1em;
-    display: flex;
-    flex-direction: column;
-    width: 20em;
-}
 .right{
     display: flex;
     flex-direction: column;
@@ -158,6 +126,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin-bottom: 5em;
 }
 .award{
     width: 30em;

@@ -11,8 +11,8 @@ function Robots (){
     const goAbout=()=>{
         navigate('/about');
     }
-    const goOutreach=()=>{
-        navigate('/outreach');
+    const goBlog=()=>{
+        navigate('/blog');
     }
     const goRobots=()=>{
         navigate('/robots');
@@ -28,7 +28,7 @@ function Robots (){
             <div className="topBarOther">
                 <p className="topBarElement about" onClick={goAbout}>About</p>
                 <p className="topBarElement robots">Robots</p>
-                <p className="outreach topBarElement" onClick={goOutreach}>Outreach</p>
+                <p className="blog topBarElement" onClick={goBlog}>Blog</p>
                 <p className="topBarElement sponsors" onClick={goSponsors}>Sponsorship/Sponsors</p>
             </div>
         </div>
