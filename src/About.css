@@ -1,23 +1,27 @@
-.bioCard{
+.bioCard {
     margin: 2em;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 30em;
     border-style: solid;
-    border-color: RGBA(255,255,255,0.1);
+    border-color: rgba(255, 255, 255, 0.1);
     padding: 2em;
     border-radius: 4px;
     width: 50em;
-    display: flex;
     height: fit-content;
 }
 
-.bioImg{
+.bioCard:hover {
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+    transform: scale(1.01); 
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); 
+}
+
+.bioImg {
     height: 20em;
     width: 15em;
 }
-
 .row1, .row2 {
     display: flex;
     width: 90em;

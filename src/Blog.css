@@ -25,6 +25,12 @@
     width: 20em;
 }
 
+.card:hover {
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+    transform: scale(1.01); 
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); 
+}
+
 .cardHorizontal {
     width: fit-content;
     max-width: 80em;

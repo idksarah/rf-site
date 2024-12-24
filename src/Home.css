@@ -1,16 +1,24 @@
 #root {
     width: 100vw;
-    height: 100vh;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+#root.homePage {
+    background-image: url('./img/bg.PNG');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-attachment: scroll;
+    min-height: 100vh; 
+}
 body {
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(18,33,73);
     overflow-x: hidden;
 }
+
 .topBar{
     display: flex;
     flex-direction: row;
@@ -27,16 +35,18 @@ body {
 }
 .topBarElement{
     cursor: pointer;
+    margin-left: 2em;
 }
+.topBarElement:hover {
+    color:rgb(0, 170, 255);
+    transform: scale(1.03); 
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+  }
 .content {
     display: flex; 
     flex-direction: column;
     align-items: center;
     margin-top: 5em;
-}
-
-.topBarElement{
-    margin-left: 2em;
 }
 
 p {
@@ -73,9 +83,6 @@ p {
 .lightBlue{
     color:rgb(159, 223, 255);
 }
-.topBarElement:hover {
-    color: lightblue;
-  }
   
 .cursor{
     cursor: pointer;
@@ -127,7 +134,21 @@ p {
     align-items: center;
     flex-direction: row;
     margin-bottom: 5em;
+    width: 100vw;
 }
 .award{
     width: 30em;
+}
+
+.roboforce {
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+    animation: float 2s infinite ease-in-out;
+}
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0); /* Start and end at the same position */
+    }
+    50% {
+        transform: translateY(-2px); /* Move upward slightly */
+    }
 }

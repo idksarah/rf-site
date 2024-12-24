@@ -1,11 +1,16 @@
 import './Home.css';
 import teamPhoto from './img/team.jpg';
+import background from './img/bg.PNG';
+import roboforce from './img/roboforce.PNG';
 import Sponsors from './Sponsors';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { Navigate, useNavigate, useLocation  } from 'react-router-dom';
+import {CardHorizontal} from './Blog';
+import qual from './img/qual.jpg';
 
-
+//modulafirze this top bar
 function Home () {
     let navigate=useNavigate();
+    const location = useLocation();
     const goSponsors=()=>{
         navigate('/sponsors');
     }
@@ -22,7 +27,7 @@ function Home () {
         navigate('/home');
     }
     return(
-        <>
+        <div id="root" className={location.pathname === "/home" ? "homePage" : ""}>
         <div className="topBar">
             <div className="goHome">
                 <p className='heading1 blue topBarElement' onClick={goHome}>RoboForce</p>
@@ -38,8 +43,7 @@ function Home () {
                 <div className="top section">
                     <div className="yap">
                         <div className="topYap">
-                        <p className="header1">FTC 13356 <span className="blue">RoboForce</span></p>
-                        <p className="header3">Taking innovation to the <span className="blue">NEXT LEVEL</span></p>
+                        <img className="roboforce"src={roboforce} style={{height: '25em'}}></img>
                     </div>
                     </div>
                 </div>
@@ -59,10 +63,14 @@ function Home () {
                             <img className="teamPhoto"src={teamPhoto} alt="teamPhoto"></img>
                         </div>
                     </div>
+                    <div className="news">
+                        <p className="header2">News</p>
+                        <CardHorizontal img={qual} title="cook" content="cooked (gonna put a diff img here don't come at me)"></CardHorizontal>
+                    </div>
                 </div>
                 
             </div>
-        </>
+        </div>
     )
 }
 

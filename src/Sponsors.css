@@ -20,3 +20,7 @@
 .leftContact{
     width: 30em;
 }
+
+.sponsor:hover {
+    cursor: pointer;
+}

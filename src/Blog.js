@@ -22,7 +22,7 @@ function CardVertical ({title, content, img}) {
     )
 }
 
-function CardHorizontal ({title, content, img}) {
+export function CardHorizontal ({title, content, img}) {
     return(
         <div className="card cardHorizontal">
             <img className="cardHorizontalImg"src={img}></img>
