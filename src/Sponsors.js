@@ -42,6 +42,38 @@ function Sponsors (){
     const goYT=()=>{
         window.location.href = 'https://www.youtube.com/@ftcroboforce13356';
     }
+
+    
+    const goApple=()=>{
+        window.location.href = 'https://www.apple.com/';
+    }
+    const goAva=()=>{
+        window.location.href = 'https://avaenergy.org/';
+    }
+    const goCL=()=>{
+        window.location.href = 'https://circuitlaunch.com/';
+    }
+    const goCNC=()=>{
+        window.location.href = 'https://cncmadness.com/';
+    }
+    const goC4F=()=>{
+        window.location.href = 'https://www.codeforfun.com/';
+    }
+    const goFox=()=>{
+        window.location.href = 'https://foxglove.dev/';
+    }
+    const goHaas=()=>{
+        window.location.href = 'https://www.stewarthaasracing.com/gene-haas/';
+    }
+    const goGoBilda=()=>{
+        window.location.href = 'https://www.gobilda.com/';
+    }
+    const goSVGS=()=>{
+        window.location.href = 'https://siliconvalleysigns.com/';
+    }
+    const goSCS=()=>{
+        window.location.href = 'https://sendcutsend.com/';
+    }
     return(
         <>
         <div className="topBar">
@@ -59,16 +91,16 @@ function Sponsors (){
             <p className='header2 lightBlue'>Thank you to our sponsors!</p>
             <div className="sponsors section">
                 
-                <img className="apple sponsor"src={apple}></img>
-                <img className="apple sponsor"src={ava}></img>
-                <img className="apple sponsor"src={circuitLaunch}></img>
-                <img className="apple sponsor"src={cnc}></img>
-                <img className="apple sponsor"src={codeforfun}></img>
-                <img className="apple sponsor"src={foxglove}></img>
-                <img className="apple sponsor"src={genehaas}></img>
-                <img className="apple sponsor"src={gobilda}></img>
-                <img className="apple sponsor"src={svs}></img>
-                <img className="apple sponsor"src={scs}></img>
+                <img onClick={goApple} className="apple sponsor"src={apple}></img>
+                <img onClick ={goAva}className="ava sponsor"src={ava}></img>
+                <img onClick={goCNC}className="apple sponsor"src={circuitLaunch}></img>
+                <img onClick={goCNC}className="apple sponsor"src={cnc}></img>
+                <img onClick={goC4F}className="apple sponsor"src={codeforfun}></img>
+                <img onClick={goFox}className="apple sponsor"src={foxglove}></img>
+                <img onClick={goHaas} className="apple sponsor"src={genehaas}></img>
+                <img onClick={goGoBilda}className="apple sponsor"src={gobilda}></img>
+                <img onClick={goSVGS}className="apple sponsor"src={svs}></img>
+                <img onClick={goSCS}className="apple sponsor"src={scs}></img>
             </div>
 
             <p className='header2 lightBlue'>Contact us!</p>
