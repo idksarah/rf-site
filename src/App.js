@@ -4,6 +4,7 @@ import About from './About';
 import Robots from './Robots';
 import Sponsors from './Sponsors';
 import Blog from'./Blog';
+import Awards from './Awards';
 import ReactDOM from "react-dom/client";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="About" element={<About />}/>
         <Route path="Robots" element={<Robots />}/>
         <Route path="Blog" element={<Blog />}/>
+        <Route path="Awards" element={<Awards />}/>
         <Route path="Sponsors" element={<Sponsors />}/>
       </Routes>
   );

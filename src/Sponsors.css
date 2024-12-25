@@ -13,12 +13,17 @@
 }
 
 .contact {
-    text-align: center;
     display: flex;
 }
 
 .leftContact{
-    width: 30em;
+    width: 27em;
+}
+
+.leftContact, .rightContact{
+    margin-right: 2em;
+    margin-left: 2em;
+    padding: 2em;
 }
 
 .sponsor:hover {

@@ -3,6 +3,7 @@ import About from './About';
 import Robots from './Robots';
 import { Navigate, useNavigate } from 'react-router-dom';
 import './Sponsors.css';
+import TopBar from './components/TopBar';
 
 
 import apple from './img/sponsorsUGH/apple.png';
@@ -18,21 +19,7 @@ import scs from './img/sponsorsUGH/scs.png';
 
 function Sponsors (){
     let navigate=useNavigate();
-    const goSponsors=()=>{
-        navigate('/sponsors');
-    }
-    const goAbout=()=>{
-        navigate('/about');
-    }
-    const goBlog=()=>{
-        navigate('/blog');
-    }
-    const goRobots=()=>{
-        navigate('/robots');
-    }
-    const goHome=()=>{
-        navigate('/home');
-    }
+    
     const goInsta=()=>{
         window.location.href = 'https://www.instagram.com/roboforce_ftc/';
     }
@@ -41,6 +28,9 @@ function Sponsors (){
     }
     const goYT=()=>{
         window.location.href = 'https://www.youtube.com/@ftcroboforce13356';
+    }
+    const goSponsorship=()=>{
+        window.location.href='https://drive.google.com/file/d/1uYMckEoPmcHDfy3ZPFrcIJ-loztUTQ2W/view';
     }
 
     
@@ -76,17 +66,7 @@ function Sponsors (){
     }
     return(
         <>
-        <div className="topBar">
-            <div className="goHome">
-                <p className='heading1 blue topBarElement' onClick={goHome}>RoboForce</p>
-            </div>
-            <div className="topBarOther">
-                <p className="topBarElement about" onClick={goAbout}>About</p>
-                <p className="topBarElement robots" onClick={goRobots}>Robots</p>
-                <p className="blog topBarElement" onClick={goBlog}>Blog</p>
-                <p className="topBarElement sponsors">Sponsorship/Sponsors</p>
-            </div>
-        </div>
+        <TopBar/>
         <div className='content'>
             <p className='header2 lightBlue'>Thank you to our sponsors!</p>
             <div className="sponsors section">
@@ -105,11 +85,12 @@ function Sponsors (){
 
             <p className='header2 lightBlue'>Contact us!</p>
             <div className="contact">
-                <div className="leftContact">
+                <div className="leftContact border">
                     <p>For any inquiries, questions or commendations, please tell us!</p>
                     <p>For any outreach/partnership inquiries, please contact us at <span className="lightBlue">outreach.ftc13356@gmail.com.</span></p>
+                    <p>Check out our <span onClick={goSponsorship} className="cursor lightBlue">sponsorship brochure</span> for more details!</p>
                 </div>
-                <div className ='rightContact'>
+                <div className ='rightContact border'>
                     <p>You can also find us at the following:</p>
                     <p>Instagram: <span className="lightBlue cursor" onClick={goInsta}>@roboforce_ftc</span></p>
                     <p>Facebook Page: <span className="lightBlue cursor" onClick={goFacebook}>@RoboForce.FTC</span></p>
