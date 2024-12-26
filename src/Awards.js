@@ -7,7 +7,8 @@ function Awards(){
     return(
     <>
         <TopBar/>
-        <div className='content'>
+        <div className='content notHomeContent'>
+            <p className="header3">Awards</p>
             <CardHorizontalText 
                 title="2022-23 Power Play" 
                 content={

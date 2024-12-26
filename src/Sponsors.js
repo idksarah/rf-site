@@ -67,7 +67,7 @@ function Sponsors (){
     return(
         <>
         <TopBar/>
-        <div className='content'>
+        <div className='content notHomeContent'>
             <p className='header2 lightBlue'>Thank you to our sponsors!</p>
             <div className="sponsors section">
                 

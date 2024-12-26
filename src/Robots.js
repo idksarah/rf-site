@@ -10,7 +10,7 @@ function Robots (){
     return(
         <div>
             <TopBar/>
-                <div className="content">
+                <div className="content notHomeContent">
                     
                 <CardHorizontal content="robots rn't real actually. so. yeah. click off"></CardHorizontal>
                     </div>

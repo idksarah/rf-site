@@ -29,7 +29,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="about border section">
+                <div className="about border section hover">
                     <p className="header2 lightBlue">Who We Are</p>
                     <div className="aboutContent">
                         <div className="left">
@@ -70,6 +70,8 @@ function Home() {
                         <p className="header2">News</p>
                         <CardHorizontal img={qual} title="Cooked" content="i eat dogs" />
                     </div>
+            </div>
+            <div className="bottomBitch">
             </div>
         </div>
     );

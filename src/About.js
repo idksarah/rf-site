@@ -25,7 +25,7 @@ function About(){
     return(
         <>
             <TopBar/>
-            <div className=" about content">
+            <div className=" about content notHomeContent">
                 <p className="header2">Team Bios</p>
                 <div className="row1">
                     <CardVertical title="Team Captain, Mechanical Lead" content=" Helllo! I'm Aiden. I am a senior at Mission San Jose HS. I've been participating in FTC for 6 years. Through FIRST, I have gained invaluable leadership and mechanical design experience. As Mechanical Lead, I love the challenge of designing innovative robots that each season brings. I am passionate about sharing my knowledge through mentorship and expanding access to STEM education in underserved communities.                   Outside of robotics I enjoy playing piano, photography,  Formula 1 & traveling." img={aiden}></CardVertical>

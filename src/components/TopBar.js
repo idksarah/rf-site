@@ -15,7 +15,7 @@ function TopBar() {
     return (
         <div className="topBar">
             <div className="goHome">
-                <p className="heading1 blue topBarElement" onClick={goHome}>
+                <p className="heading1 bold blue topBarElement" onClick={goHome}>
                     RoboForce
                 </p>
             </div>

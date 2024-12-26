@@ -27,3 +27,7 @@
     width: 90em;
     flex-direction: row;
 }
+
+.about.content{
+    height: fit-content;
+}
