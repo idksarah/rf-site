@@ -23,9 +23,6 @@ function TopBar() {
                 <p className="topBarElement about" onClick={goAbout}>
                     About
                 </p>
-                <p className="topBarElement robots" onClick={goRobots}>
-                    Robots
-                </p>
                 <p className="blog topBarElement" onClick={goBlog}>
                     Blog
                 </p>

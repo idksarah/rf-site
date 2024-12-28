@@ -68,7 +68,7 @@ function Home() {
                 </div>
                     <div className="news">
                         <p className="header2">News</p>
-                        <CardHorizontal img={qual} title="Cooked" content="i eat dogs" />
+                        <CardHorizontal img={qual} title="Norcal Regionals 6 Years In a Row!" content="Inspire + FAC at Fresno Qualifier 🎉🎉. Thanks to our amazing partners @animatronics_robotics & @kalipsorobotics" />
                     </div>
             </div>
             <div className="bottomBitch">
