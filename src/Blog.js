@@ -1,7 +1,4 @@
 import './Blog.css';
-import Home from './Home';
-import Robots from './Robots';
-import Sponsors from './Sponsors';
 import TopBar from './components/TopBar';
 
 import award from './img/award.jpg';
@@ -13,7 +10,6 @@ import qual from './img/qual1a.jpg';
 import demo1 from './img/demo1.jpg';
 import demo2 from './img/demo2.jpg';
 import demo3 from './img/demo3.jpg';
-import { Navigate, useNavigate } from 'react-router-dom';
 
 function CardVertical ({title, content, img}) {
     return(

@@ -1,8 +1,3 @@
-import './About.css';
-import Home from './Home';
-import Robots from './Robots';
-import Sponsors from './Sponsors';
-
 import TopBar from './components/TopBar';
 import aiden from './img/ppl/aiden.jpg';
 import eric from './img/ppl/eric.jpg';
@@ -10,7 +5,6 @@ import hyun from './img/ppl/hyun.jpg';
 import sarah from './img/ppl/sarah.jpg';
 import sophia from './img/ppl/sophia.jpg';
 import warren from './img/ppl/warren.jpg';
-import { Navigate, useNavigate } from 'react-router-dom';
 
 function CardVertical ({title, content, img}) {
     return(

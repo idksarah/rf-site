@@ -1,6 +1,3 @@
-import Home from './Home';
-import About from './About';
-import Robots from './Robots';
 import { Navigate, useNavigate } from 'react-router-dom';
 import './Sponsors.css';
 import TopBar from './components/TopBar';
