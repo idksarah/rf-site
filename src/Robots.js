@@ -8,8 +8,11 @@ function Robots (){
         <div>
             <TopBar/>
                 <div className="content notHomeContent">
+                    <p className="header3">Robots</p>
                     
-                <CardHorizontal content="robots rn't real actually. so. yeah. click off"></CardHorizontal>
+                <CardVertical title="2021-2022: Freight Frenzy"></CardVertical>
+                <CardVertical title="2020-2021: Ultimate Goal"></CardVertical>
+                <CardVertical title="2019-2020: Skystone"></CardVertical>
                     </div>
             </div>
     );
